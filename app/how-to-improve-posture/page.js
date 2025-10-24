@@ -124,37 +124,93 @@ const navigationPathway = {
   }
 }
 
-const articleSchema = {
+const schemaMarkup = {
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Improve Your Posture",
-  "description": "Complete guide to improving posture with daily habits, exercises, and timeline for results.",
-  "totalTime": "P8W",
-  "step": [
+  "@graph": [
     {
-      "@type": "HowToStep",
-      "name": "Fix Your Sitting Posture",
-      "text": "Set up your chair and desk with proper ergonomics: feet flat, knees at 90 degrees, back supported, monitor at eye level."
+      "@type": "Article",
+      "@id": "https://www.posturetips.com/how-to-improve-posture#article",
+      "headline": "How to Improve Your Posture: Complete Evidence-Based Guide",
+      "description": "Learn how to improve your posture with simple daily habits. Covers sitting, standing, sleeping, exercises, and timeline for results. Start today!",
+      "author": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "datePublished": "2025-10-24",
+      "dateModified": "2025-10-24",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.posturetips.com/how-to-improve-posture"
+      }
     },
     {
-      "@type": "HowToStep",
-      "name": "Improve Standing Posture",
-      "text": "Stand with weight evenly distributed, knees slightly bent, shoulders back, and head balanced over spine."
+      "@type": "BreadcrumbList",
+      "@id": "https://www.posturetips.com/how-to-improve-posture#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How to Improve Your Posture"
+        }
+      ]
     },
     {
-      "@type": "HowToStep",
-      "name": "Optimize Sleep Posture",
-      "text": "Sleep on your back or side with proper pillow support to maintain neutral spine alignment throughout the night."
+      "@type": "HowTo",
+      "@id": "https://www.posturetips.com/how-to-improve-posture#howto",
+      "name": "How to Improve Your Posture",
+      "description": "Complete guide to improving posture with daily habits, exercises, and timeline for results.",
+      "totalTime": "P8W",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Fix Your Sitting Posture",
+          "text": "Set up your chair and desk with proper ergonomics: feet flat, knees at 90 degrees, back supported, monitor at eye level."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Improve Standing Posture",
+          "text": "Stand with weight evenly distributed, knees slightly bent, shoulders back, and head balanced over spine."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Optimize Sleep Posture",
+          "text": "Sleep on your back or side with proper pillow support to maintain neutral spine alignment throughout the night."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Do Daily Posture Exercises",
+          "text": "Practice chin tucks, wall angels, cat-cow stretches, bridges, and planks for 10 minutes daily to strengthen postural muscles."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Build Awareness Habits",
+          "text": "Set hourly reminders, use visual cues, and track progress with photos to make good posture automatic."
+        }
+      ]
     },
     {
-      "@type": "HowToStep",
-      "name": "Do Daily Posture Exercises",
-      "text": "Practice chin tucks, wall angels, cat-cow stretches, bridges, and planks for 10 minutes daily to strengthen postural muscles."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Build Awareness Habits",
-      "text": "Set hourly reminders, use visual cues, and track progress with photos to make good posture automatic."
+      "@type": "FAQPage",
+      "@id": "https://www.posturetips.com/how-to-improve-posture#faq",
+      "mainEntity": faqData.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
     }
   ]
 }
@@ -164,7 +220,7 @@ export default function HowToImprovePosture() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
       />
 
       <ReadingProgress />

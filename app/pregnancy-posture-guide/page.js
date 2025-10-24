@@ -79,9 +79,77 @@ const relatedArticles = [
   }
 ]
 
+const schemaMarkup = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.posturetips.com/pregnancy-posture-guide#article",
+      "headline": "Pregnancy Posture Guide: Support Your Changing Body",
+      "description": "Safe posture tips and exercises during pregnancy. Learn how to adapt your posture as your body changes and reduce back pain throughout pregnancy.",
+      "author": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "datePublished": "2025-10-24",
+      "dateModified": "2025-10-24",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.posturetips.com/pregnancy-posture-guide"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.posturetips.com/pregnancy-posture-guide#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pregnancy Posture"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.posturetips.com/pregnancy-posture-guide#faq",
+      "mainEntity": faqData.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ]
+}
+
 export default function PregnancyPostureGuide() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+
       <ReadingProgress />
 
       <article className="min-h-screen bg-white">

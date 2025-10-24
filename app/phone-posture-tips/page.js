@@ -85,9 +85,77 @@ const relatedArticles = [
   }
 ]
 
+const schemaMarkup = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.posturetips.com/phone-posture-tips#article",
+      "headline": "Text Neck Prevention: How to Use Your Phone Without Pain",
+      "description": "Prevent text neck and phone-related posture problems with these simple tips. Learn the right way to hold your phone and when to take breaks.",
+      "author": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "datePublished": "2025-10-24",
+      "dateModified": "2025-10-24",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.posturetips.com/phone-posture-tips"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.posturetips.com/phone-posture-tips#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tips",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Phone Posture"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.posturetips.com/phone-posture-tips#faq",
+      "mainEntity": faqData.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ]
+}
+
 export default function PhonePostureTips() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+
       <ReadingProgress />
 
       <article className="min-h-screen bg-white">

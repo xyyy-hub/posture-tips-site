@@ -120,9 +120,77 @@ const navigationPathway = {
   }
 }
 
+const schemaMarkup = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.posturetips.com/sleep-posture-guide#article",
+      "headline": "Sleep Posture Guide: Best Positions for Spine Health",
+      "description": "Discover the best sleeping positions for posture and spine health. Covers back, side, and stomach sleeping with pillow and mattress recommendations.",
+      "author": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "datePublished": "2025-10-24",
+      "dateModified": "2025-10-24",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.posturetips.com/sleep-posture-guide"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.posturetips.com/sleep-posture-guide#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sleep Posture Guide"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.posturetips.com/sleep-posture-guide#faq",
+      "mainEntity": faqData.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ]
+}
+
 export default function SleepPostureGuide() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+
       <ReadingProgress />
 
       <article className="min-h-screen bg-white">

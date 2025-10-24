@@ -120,9 +120,111 @@ const navigationPathway = {
   }
 }
 
+const schemaMarkup = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.posturetips.com/sitting-posture-guide#article",
+      "headline": "Perfect Sitting Posture for Desk Workers: Complete Setup Guide",
+      "description": "Master proper sitting posture with this evidence-based guide for desk workers. Includes chair setup, monitor positioning, and break strategies.",
+      "author": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "datePublished": "2025-10-24",
+      "dateModified": "2025-10-24",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.posturetips.com/sitting-posture-guide"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.posturetips.com/sitting-posture-guide#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sitting Posture Guide"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.posturetips.com/sitting-posture-guide#howto",
+      "name": "How to Achieve Perfect Sitting Posture",
+      "description": "Step-by-step guide to setting up proper sitting posture for desk work.",
+      "totalTime": "PT15M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Adjust Chair Height",
+          "text": "Set chair height so feet rest flat on floor (or footrest) and knees form 90-degree angle, slightly lower than hips."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Position Lumbar Support",
+          "text": "Adjust lumbar support to fit snugly into curve of lower back at waist height for proper spine alignment."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Set Monitor Height",
+          "text": "Position monitor an arm's length away with top of screen at or slightly below eye level to prevent neck strain."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Position Keyboard and Mouse",
+          "text": "Keep keyboard close enough that elbows stay at 90 degrees and upper arms hang naturally at sides."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Take Regular Breaks",
+          "text": "Stand and walk for 5 minutes every 45-60 minutes to prevent stiffness and maintain circulation."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.posturetips.com/sitting-posture-guide#faq",
+      "mainEntity": faqData.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ]
+}
+
 export default function SittingPostureGuide() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+
       <ReadingProgress />
 
       <article className="min-h-screen bg-white">

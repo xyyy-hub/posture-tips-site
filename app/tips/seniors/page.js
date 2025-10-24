@@ -77,9 +77,77 @@ const relatedArticles = [
   }
 ]
 
+const schemaMarkup = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.posturetips.com/tips/seniors#article",
+      "headline": "Posture Tips for Seniors: Stay Strong and Balanced",
+      "description": "Gentle posture tips and exercises for seniors to maintain balance, prevent falls, and reduce back pain. Safe, effective techniques for all fitness levels.",
+      "author": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "datePublished": "2025-10-24",
+      "dateModified": "2025-10-24",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.posturetips.com/tips/seniors"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.posturetips.com/tips/seniors#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tips",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Seniors"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.posturetips.com/tips/seniors#faq",
+      "mainEntity": faqData.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ]
+}
+
 export default function SeniorPostureTips() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+
       <ReadingProgress />
 
       <article className="min-h-screen bg-white">

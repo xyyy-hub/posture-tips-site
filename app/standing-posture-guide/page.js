@@ -120,9 +120,111 @@ const navigationPathway = {
   }
 }
 
+const schemaMarkup = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.posturetips.com/standing-posture-guide#article",
+      "headline": "Standing Posture Guide: How to Stand with Perfect Alignment",
+      "description": "Learn proper standing posture with this complete guide. Includes alignment tests, common mistakes, and exercises to build lasting habits.",
+      "author": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "datePublished": "2025-10-24",
+      "dateModified": "2025-10-24",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.posturetips.com/standing-posture-guide"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.posturetips.com/standing-posture-guide#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Standing Posture Guide"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.posturetips.com/standing-posture-guide#howto",
+      "name": "How to Stand with Perfect Posture",
+      "description": "Step-by-step guide to achieving proper standing alignment.",
+      "totalTime": "PT5M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Position Your Feet",
+          "text": "Stand with feet hip-width apart, weight evenly distributed 50% on each foot, centered over your arches."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Align Your Knees",
+          "text": "Keep knees slightly bent (micro-bend), never locked. Locking knees causes fatigue and poor pelvic alignment."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Position Your Pelvis",
+          "text": "Keep pelvis neutral - not tilted forward or backward. Your hip bones and pubic bone should be in same vertical plane."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Set Your Shoulders",
+          "text": "Roll shoulders back and down naturally. Shoulders should be relaxed, not tensed or forced back military-style."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Align Your Head",
+          "text": "Keep chin parallel to ground, head balanced directly over spine. Imagine a string pulling crown of your head upward."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.posturetips.com/standing-posture-guide#faq",
+      "mainEntity": faqData.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ]
+}
+
 export default function StandingPostureGuide() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+
       <ReadingProgress />
 
       <article className="min-h-screen bg-white">

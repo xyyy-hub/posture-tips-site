@@ -85,9 +85,111 @@ const relatedArticles = [
   }
 ]
 
+const schemaMarkup = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.posturetips.com/desk-ergonomics-guide#article",
+      "headline": "Desk Ergonomics Setup Guide: Create the Perfect Workspace",
+      "description": "Set up your desk for perfect ergonomics with this step-by-step guide. Covers chair height, monitor positioning, keyboard placement, and more.",
+      "author": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "datePublished": "2025-10-24",
+      "dateModified": "2025-10-24",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.posturetips.com/desk-ergonomics-guide"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.posturetips.com/desk-ergonomics-guide#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Desk Ergonomics Guide"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.posturetips.com/desk-ergonomics-guide#howto",
+      "name": "How to Set Up Your Desk Ergonomically",
+      "description": "Step-by-step guide to creating the perfect ergonomic workspace.",
+      "totalTime": "PT20M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Adjust Your Chair",
+          "text": "Set seat height so feet rest flat with knees at 90 degrees. Adjust lumbar support to fit lower back curve. Set armrests so elbows rest lightly with shoulders relaxed."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Position Your Monitor",
+          "text": "Place monitor at arm's length (20-28 inches). Top of monitor should be at or slightly below eye level. Center monitor directly in front of you, not off to the side."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Set Up Keyboard and Mouse",
+          "text": "Place keyboard directly in front of you, close to body edge. Keep mouse right next to keyboard at same height. Elbows should be at 90 degrees with wrists straight."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Verify the 90-90-90 Rule",
+          "text": "Check that ankles, knees, and elbows all form 90-degree angles. Adjust as needed to achieve neutral position."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Test and Fine-Tune",
+          "text": "Work for 30 minutes and notice any discomfort. Make small adjustments until everything feels comfortable and sustainable."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.posturetips.com/desk-ergonomics-guide#faq",
+      "mainEntity": faqData.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ]
+}
+
 export default function DeskErgonomicsGuide() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+
       <ReadingProgress />
 
       <article className="min-h-screen bg-white">

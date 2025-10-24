@@ -121,9 +121,116 @@ const navigationPathway = {
   }
 }
 
+const schemaMarkup = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.posturetips.com/daily-posture-routine#article",
+      "headline": "10-Minute Daily Posture Routine: Simple Exercises That Work",
+      "description": "This quick daily routine strengthens and stretches the muscles that support good posture. Follow along with step-by-step instructions for each exercise.",
+      "author": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "PostureTips.com",
+        "url": "https://www.posturetips.com"
+      },
+      "datePublished": "2025-10-24",
+      "dateModified": "2025-10-24",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.posturetips.com/daily-posture-routine"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.posturetips.com/daily-posture-routine#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://www.posturetips.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Daily Posture Routine"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://www.posturetips.com/daily-posture-routine#howto",
+      "name": "Daily 10-Minute Posture Routine",
+      "description": "Complete routine targeting key posture muscles with 5 evidence-based exercises.",
+      "totalTime": "PT10M",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Chin Tucks",
+          "text": "Sit or stand tall. Gently draw chin straight back like making a double chin. Hold 5 seconds. Repeat 12 times. Fixes forward head posture.",
+          "url": "https://www.posturetips.com/daily-posture-routine#exercise-1"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Wall Angels",
+          "text": "Stand with back against wall. Raise arms to 90 degrees. Slowly slide arms overhead while maintaining wall contact. Lower back down. Repeat 10 times. Fixes rounded shoulders.",
+          "url": "https://www.posturetips.com/daily-posture-routine#exercise-2"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Cat-Cow Stretches",
+          "text": "Start on hands and knees. Inhale and arch back (cow). Exhale and round spine (cat). Flow smoothly between positions. Repeat 10 times. Improves spinal mobility.",
+          "url": "https://www.posturetips.com/daily-posture-routine#exercise-3"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Glute Bridges",
+          "text": "Lie on back, knees bent, feet flat. Press through heels, lift hips toward ceiling. Squeeze glutes at top. Hold 3 seconds. Lower slowly. Repeat 15 times. Strengthens glutes and core.",
+          "url": "https://www.posturetips.com/daily-posture-routine#exercise-4"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Plank Hold",
+          "text": "Start in forearm plank position. Keep body in straight line from head to heels. Engage core and glutes. Breathe steadily. Hold 20-60 seconds based on fitness level. Builds core stability.",
+          "url": "https://www.posturetips.com/daily-posture-routine#exercise-5"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.posturetips.com/daily-posture-routine#faq",
+      "mainEntity": faqData.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    }
+  ]
+}
+
 export default function DailyPostureRoutine() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
+
       <ReadingProgress />
 
       <article className="min-h-screen bg-white">
