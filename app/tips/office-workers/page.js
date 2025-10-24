@@ -138,6 +138,10 @@ export default function OfficeWorkersTips() {
 
             <h2>Desk Setup Tips (Fix These First)</h2>
 
+            <p>
+              For complete desk setup instructions, see our <a href="/desk-ergonomics-guide" className="text-primary-600 hover:underline">comprehensive ergonomics guide</a>.
+            </p>
+
             <h3>1. Raise Your Monitor to Eye Level</h3>
             <p>
               <strong>The problem:</strong> Most monitors sit too low, forcing you to look down all day. This adds 10-15 pounds of pressure on your neck for every inch your head tilts forward.
@@ -172,13 +176,17 @@ export default function OfficeWorkersTips() {
 
             <h3>5. Set Up External Keyboard for Laptop Users</h3>
             <p>
-              <strong>The problem:</strong> Using built-in laptop keyboard forces you to look down at screen for 8+ hours, guaranteed neck strain.
+              <strong>The problem:</strong> Using built-in laptop keyboard forces you to look down at screen for 8+ hours, guaranteed <a href="/phone-posture-tips" className="text-primary-600 hover:underline">neck strain</a>.
             </p>
             <p>
               <strong>The fix:</strong> Get laptop stand (raises screen to eye level), external keyboard, and external mouse. This is non-negotiable for full-time laptop work. A $30 investment prevents years of neck problems.
             </p>
 
             <h2>Sitting Position Tips</h2>
+
+            <p>
+              Learn more in our detailed <a href="/sitting-posture-guide" className="text-primary-600 hover:underline">sitting posture guide</a>.
+            </p>
 
             <h3>6. Follow the 90-90-90 Rule</h3>
             <p>

@@ -233,7 +233,7 @@ export default function PhonePostureTips() {
 
             <h3>Long-Term Effects (Months to Years)</h3>
             <ul>
-              <li>Forward head posture (head permanently ahead of shoulders)</li>
+              <li><a href="/standing-posture-guide" className="text-primary-600 hover:underline">Forward head posture</a> (head permanently ahead of shoulders)</li>
               <li>Rounded upper back</li>
               <li>Loss of normal neck curve</li>
               <li>Disc degeneration and early arthritis</li>
@@ -296,7 +296,7 @@ export default function PhonePostureTips() {
 
             <h3>6. Sit Back Against Support</h3>
             <p>
-              When using phone while sitting, sit all the way back in chair with back support. Don't hunch forward or perch on edge.
+              When using phone while sitting, sit all the way back in chair with back support. Don't hunch forward or perch on edge. See our <a href="/sitting-posture-guide" className="text-primary-600 hover:underline">sitting posture guide</a> for proper position.
             </p>
 
             <h3>7. Set Screen Time Limits</h3>
@@ -316,7 +316,7 @@ export default function PhonePostureTips() {
 
             <h3>10. Do Daily Chin Tucks</h3>
             <p>
-              Counteract forward head position with daily chin tucks: gently draw chin straight back (making double chin), hold 5 seconds, repeat 15 times. Strengthens muscles that fight text neck.
+              Counteract forward head position with daily chin tucks: gently draw chin straight back (making double chin), hold 5 seconds, repeat 15 times. Strengthens muscles that fight text neck. See our <a href="/daily-posture-routine" className="text-primary-600 hover:underline">complete exercise routine</a>.
             </p>
 
             <h2>Warning Signs of Text Neck</h2>

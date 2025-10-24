@@ -180,11 +180,18 @@ export default function StudentPostureTips() {
             </p>
 
             <h2>Why Students Have Posture Problems</h2>
+
+            <p>
+              For comprehensive posture improvement, see our <a href="/how-to-improve-posture" className="text-primary-600 hover:underline">complete guide</a>.
+            </p>
+
             <ul>
               <li><strong>Heavy backpacks:</strong> Carrying 15-20 pounds daily forces forward lean</li>
               <li><strong>Poorly-fitted desks:</strong> School desks rarely adjustable, often too high or low</li>
               <li><strong>Laptop use:</strong> Looking down at laptop for hours without riser or external keyboard</li>
-              <li><strong>Phone addiction:</strong> Average student checks phone 150+ times daily, each time looking down</li>
+              <li><strong>Phone addiction:</strong> Average student checks <a href="/phone-posture-tips" className="text-primary-600 hover:underline">phone</a> 150+ times daily, each time looking down</li></invoke>
+<invoke name="read_file">
+<parameter name="target_file">/Users/thxu/Desktop/cursor-workspace/projects/posture-tips-site/app/tips/seniors/page.js
               <li><strong>Cramming sessions:</strong> Studying 3-4 hours without breaks in poor positions</li>
               <li><strong>Dorm furniture:</strong> Beds, bean bags, floor—none support good posture</li>
             </ul>

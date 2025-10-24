@@ -180,6 +180,11 @@ export default function SeniorPostureTips() {
             </p>
 
             <h2>Why Posture Matters More as We Age</h2>
+
+            <p>
+              For general posture principles, see our <a href="/how-to-improve-posture" className="text-primary-600 hover:underline">complete guide</a>. For balance techniques, see our <a href="/standing-posture-guide" className="text-primary-600 hover:underline">standing guide</a>.
+            </p>
+
             <ul>
               <li><strong>Balance and fall prevention:</strong> Good posture keeps center of gravity stable</li>
               <li><strong>Pain reduction:</strong> Proper alignment reduces chronic back and neck pain</li>
