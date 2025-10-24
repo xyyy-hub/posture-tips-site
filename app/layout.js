@@ -38,6 +38,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YWDSMTZ1KK"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-YWDSMTZ1KK');
+            `,
+          }}
+        />
+      </head>
       <body className="font-sans antialiased bg-white text-gray-900">
         <Header />
         <main className="min-h-screen">
@@ -48,4 +62,5 @@ export default function RootLayout({ children }) {
     </html>
   )
 }
+
 
