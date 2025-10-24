@@ -164,9 +164,15 @@ export default function Home() {
                 <span className="text-primary-600 font-medium">Read guide →</span>
               </Link>
 
-              <Link href="/sleep-posture-guide" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                <h3 className="text-xl font-semibold mb-2 text-gray-900">Sleep Posture for Spine Health</h3>
-                <p className="text-gray-600 mb-4">Best sleeping positions and pillow recommendations</p>
+              <Link href="/phone-posture-tips" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">Phone Posture Tips</h3>
+                <p className="text-gray-600 mb-4">Prevent text neck with proper phone holding techniques</p>
+                <span className="text-primary-600 font-medium">Read guide →</span>
+              </Link>
+
+              <Link href="/desk-ergonomics-guide" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">Desk Ergonomics Setup</h3>
+                <p className="text-gray-600 mb-4">Create the perfect workspace to support good posture</p>
                 <span className="text-primary-600 font-medium">Read guide →</span>
               </Link>
 
@@ -176,10 +182,37 @@ export default function Home() {
                 <span className="text-primary-600 font-medium">Read guide →</span>
               </Link>
 
-              <Link href="/desk-ergonomics-guide" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-                <h3 className="text-xl font-semibold mb-2 text-gray-900">Desk Ergonomics Setup</h3>
-                <p className="text-gray-600 mb-4">Create the perfect workspace to support good posture</p>
+              <Link href="/sleep-posture-guide" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">Sleep Posture Guide</h3>
+                <p className="text-gray-600 mb-4">Best sleeping positions and pillow recommendations</p>
                 <span className="text-primary-600 font-medium">Read guide →</span>
+              </Link>
+
+              <Link href="/walking-posture-guide" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">Walking Posture Guide</h3>
+                <p className="text-gray-600 mb-4">Improve your gait and walking posture mechanics</p>
+                <span className="text-primary-600 font-medium">Read guide →</span>
+              </Link>
+
+              <Link href="/driving-posture-guide" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">Driving Posture Guide</h3>
+                <p className="text-gray-600 mb-4">Car seat setup and tips for long commutes</p>
+                <span className="text-primary-600 font-medium">Read guide →</span>
+              </Link>
+
+              <Link href="/pregnancy-posture-guide" className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">Pregnancy Posture Guide</h3>
+                <p className="text-gray-600 mb-4">Safe posture practices during pregnancy</p>
+                <span className="text-primary-600 font-medium">Read guide →</span>
+              </Link>
+            </div>
+
+            <div className="text-center mt-8">
+              <Link 
+                href="/guides" 
+                className="inline-block text-primary-600 font-semibold hover:underline"
+              >
+                View All Guides →
               </Link>
             </div>
           </div>

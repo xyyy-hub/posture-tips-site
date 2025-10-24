@@ -11,6 +11,20 @@ export default function sitemap() {
       priority: 1.0,
     },
     
+    // Hub Pages
+    {
+      url: `${baseUrl}/guides`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/tips`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    
     // Pillar Pages (Highest Priority)
     {
       url: `${baseUrl}/how-to-improve-posture`,

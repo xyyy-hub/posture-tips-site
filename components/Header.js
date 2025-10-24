@@ -21,34 +21,28 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <Link 
-              href="/tips" 
-              className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
-            >
-              Tips
-            </Link>
-            <Link 
               href="/guides" 
               className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
             >
               Guides
             </Link>
             <Link 
-              href="/setup" 
+              href="/tips" 
+              className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
+            >
+              Tips
+            </Link>
+            <Link 
+              href="/desk-ergonomics-guide" 
               className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
             >
               Desk Setup
             </Link>
             <Link 
-              href="/exercises" 
+              href="/daily-posture-routine" 
               className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
             >
               Exercises
-            </Link>
-            <Link 
-              href="/about" 
-              className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
-            >
-              About
             </Link>
           </nav>
 
@@ -81,13 +75,6 @@ export default function Header() {
           <div className="md:hidden py-4 border-t border-gray-200">
             <nav className="flex flex-col space-y-4">
               <Link 
-                href="/tips" 
-                className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Tips
-              </Link>
-              <Link 
                 href="/guides" 
                 className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
@@ -95,25 +82,25 @@ export default function Header() {
                 Guides
               </Link>
               <Link 
-                href="/setup" 
+                href="/tips" 
+                className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Tips
+              </Link>
+              <Link 
+                href="/desk-ergonomics-guide" 
                 className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Desk Setup
               </Link>
               <Link 
-                href="/exercises" 
+                href="/daily-posture-routine" 
                 className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Exercises
-              </Link>
-              <Link 
-                href="/about" 
-                className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                About
               </Link>
             </nav>
           </div>
