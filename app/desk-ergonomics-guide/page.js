@@ -240,7 +240,7 @@ export default function DeskErgonomicsGuide() {
 
             <h2>Step 1: Adjust Your Chair First</h2>
             <p>
-              Start with your chair—it's the foundation of everything else.
+              Start with your chair—it's the foundation of everything else. For detailed sitting position guidance, see our <a href="/sitting-posture-guide" className="text-primary-600 hover:underline">complete sitting posture guide</a>.
             </p>
 
             <h3>Seat Height</h3>
@@ -269,7 +269,7 @@ export default function DeskErgonomicsGuide() {
 
             <h2>Step 2: Position Your Monitor</h2>
             <p>
-              Monitor positioning is the #1 ergonomic mistake. Most people set monitors too low.
+              Monitor positioning is the #1 ergonomic mistake. Most people set monitors too low, which is a major cause of <a href="/phone-posture-tips" className="text-primary-600 hover:underline">forward head posture</a>.
             </p>
 
             <h3>Height</h3>
@@ -351,7 +351,7 @@ export default function DeskErgonomicsGuide() {
 
             <h2>Laptop Setup (Essential for Full-Time Work)</h2>
             <p>
-              <strong>The problem:</strong> You cannot achieve proper monitor height (eye level) and proper keyboard position (elbows 90 degrees) simultaneously with laptop alone.
+              <strong>The problem:</strong> You cannot achieve proper monitor height (eye level) and proper keyboard position (elbows 90 degrees) simultaneously with laptop alone. This forces users into <a href="/phone-posture-tips" className="text-primary-600 hover:underline">text neck position</a>.
             </p>
 
             <h3>Required Equipment</h3>
@@ -362,7 +362,7 @@ export default function DeskErgonomicsGuide() {
             </ol>
 
             <p>
-              This $50-200 investment is non-negotiable for full-time laptop work. Without it, you're guaranteed neck and shoulder problems.
+              This $50-200 investment is non-negotiable for full-time laptop work. Without it, you're guaranteed neck and shoulder problems. <a href="/tips/office-workers" className="text-primary-600 hover:underline">Office workers</a> especially need this setup.
             </p>
 
             <h2>Final Ergonomic Checklist</h2>
