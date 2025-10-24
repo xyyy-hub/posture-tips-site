@@ -71,14 +71,22 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Tagline */}
+          {/* Medical Treatment */}
           <div>
             <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">
-              Our Mission
+              Medical Treatment
             </h3>
-            <p className="text-sm text-gray-600 italic">
-              "Improve your posture, improve your life."
+            <p className="text-sm text-gray-600 mb-3">
+              Need clinical treatment for neck hump or severe forward head posture?
             </p>
+            <a 
+              href="https://www.neckhump.com" 
+              className="text-primary-600 font-medium hover:underline text-sm"
+              target="_blank"
+              rel="noopener"
+            >
+              NeckHump.com - Clinical Guide →
+            </a>
           </div>
         </div>
 

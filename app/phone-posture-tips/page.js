@@ -179,6 +179,23 @@ export default function PhonePostureTips() {
             To prevent text neck, bring your phone up to eye level instead of dropping your head down. For every inch your head tilts forward, it adds 10 pounds of pressure on your neck. Limit continuous phone use to 20-minute sessions with breaks.
           </ShortAnswer>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 my-8">
+            <h3 className="font-semibold text-blue-900 mb-2">
+              Already Developed Text Neck or Forward Head Posture?
+            </h3>
+            <p className="text-blue-800 mb-3">
+              If you have chronic neck pain, limited range of motion, or noticeable forward head posture from years of phone use, you may need clinical treatment protocols. See our medical guide for targeted text neck treatment.
+            </p>
+            <a 
+              href="https://www.neckhump.com/text-neck-syndrome" 
+              className="text-blue-600 font-medium hover:underline"
+              target="_blank"
+              rel="noopener"
+            >
+              View Text Neck Treatment Guide at NeckHump.com →
+            </a>
+          </div>
+
           <KeyTakeaways takeaways={keyTakeaways} />
 
           <div className="prose prose-lg max-w-none">

@@ -252,6 +252,23 @@ export default function StandingPostureGuide() {
             Perfect standing posture has weight evenly distributed on both feet, knees slightly bent, pelvis neutral, shoulders back and down, and head balanced over your spine. Practice the wall test weekly to check your alignment and adjust as needed.
           </ShortAnswer>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 my-8">
+            <h3 className="font-semibold text-blue-900 mb-2">
+              Struggling with Forward Head Posture or Neck Pain?
+            </h3>
+            <p className="text-blue-800 mb-3">
+              If you've developed forward head posture, visible neck hump, or chronic pain despite practicing proper standing alignment, you may need clinical treatment protocols. See our comprehensive medical guide.
+            </p>
+            <a 
+              href="https://www.neckhump.com" 
+              className="text-blue-600 font-medium hover:underline"
+              target="_blank"
+              rel="noopener"
+            >
+              View Clinical Treatment Guide at NeckHump.com →
+            </a>
+          </div>
+
           <KeyTakeaways takeaways={keyTakeaways} />
 
           <div className="prose prose-lg max-w-none">

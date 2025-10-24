@@ -213,6 +213,23 @@ export default function DeskErgonomicsGuide() {
             Proper desk ergonomics has your monitor at eye level, keyboard and mouse close to your body, chair supporting your lower back, and feet flat on the floor. This neutral position reduces strain on your neck, shoulders, and back during long work sessions.
           </ShortAnswer>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 my-8">
+            <h3 className="font-semibold text-blue-900 mb-2">
+              Need Clinical Treatment for Desk-Related Pain?
+            </h3>
+            <p className="text-blue-800 mb-3">
+              If proper desk ergonomics haven't resolved your neck pain or you've developed a visible neck hump from prolonged desk work, you may need targeted clinical treatment. See our specialized desk worker guide.
+            </p>
+            <a 
+              href="https://www.neckhump.com/desk-setup-guide" 
+              className="text-blue-600 font-medium hover:underline"
+              target="_blank"
+              rel="noopener"
+            >
+              View Clinical Desk Setup Guide at NeckHump.com →
+            </a>
+          </div>
+
           <KeyTakeaways takeaways={keyTakeaways} />
 
           <div className="prose prose-lg max-w-none">

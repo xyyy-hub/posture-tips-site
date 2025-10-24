@@ -111,6 +111,23 @@ export default function OfficeWorkersTips() {
             Office workers should focus on three areas: ergonomic desk setup (monitor at eye level, feet flat), regular movement breaks (every 45 minutes), and simple strengthening exercises (5-10 minutes daily). These prevent the neck pain, back pain, and fatigue common in desk jobs.
           </ShortAnswer>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 my-8">
+            <h3 className="font-semibold text-blue-900 mb-2">
+              Office Workers: Already Have Neck Pain or Hump?
+            </h3>
+            <p className="text-blue-800 mb-3">
+              If you've developed chronic neck pain, forward head posture, or a visible neck hump from office work, you need more than general tips. See our clinical guide specifically for office workers with established conditions.
+            </p>
+            <a 
+              href="https://www.neckhump.com/neck-hump-treatment-office-workers" 
+              className="text-blue-600 font-medium hover:underline"
+              target="_blank"
+              rel="noopener"
+            >
+              View Office Worker Treatment Guide at NeckHump.com →
+            </a>
+          </div>
+
           <KeyTakeaways takeaways={keyTakeaways} />
 
           <div className="prose prose-lg max-w-none">

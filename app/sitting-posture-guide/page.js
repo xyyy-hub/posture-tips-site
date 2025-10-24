@@ -252,6 +252,23 @@ export default function SittingPostureGuide() {
             Ideal sitting posture has your feet flat on the floor, knees and elbows at 90 degrees, back fully supported by your chair, and monitor at eye level about an arm's length away. Take 5-minute standing breaks every 45 minutes to prevent stiffness.
           </ShortAnswer>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 my-8">
+            <h3 className="font-semibold text-blue-900 mb-2">
+              Experiencing Chronic Neck or Upper Back Pain?
+            </h3>
+            <p className="text-blue-800 mb-3">
+              If proper sitting posture hasn't resolved your neck pain or you've developed a visible neck hump from prolonged sitting, you may need targeted clinical treatment. See our evidence-based guide on underlying causes and treatment.
+            </p>
+            <a 
+              href="https://www.neckhump.com/neck-hump-causes" 
+              className="text-blue-600 font-medium hover:underline"
+              target="_blank"
+              rel="noopener"
+            >
+              View Neck Hump Causes & Treatment at NeckHump.com →
+            </a>
+          </div>
+
           <KeyTakeaways takeaways={keyTakeaways} />
 
           <div className="prose prose-lg max-w-none">

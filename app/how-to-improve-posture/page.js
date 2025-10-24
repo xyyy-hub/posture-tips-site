@@ -250,6 +250,23 @@ export default function HowToImprovePosture() {
             To improve your posture, focus on three areas: alignment (sit/stand with spine neutral), strength (exercises for back and core), and awareness (regular posture checks). Most people see noticeable improvements within 4-6 weeks with daily practice of these fundamentals.
           </ShortAnswer>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 my-8">
+            <h3 className="font-semibold text-blue-900 mb-2">
+              Already Experiencing Neck Pain or Visible Hump?
+            </h3>
+            <p className="text-blue-800 mb-3">
+              If you have persistent neck pain, forward head posture, or a visible neck hump, you may need clinical treatment protocols beyond general posture tips. See our evidence-based medical guide for targeted treatment.
+            </p>
+            <a 
+              href="https://www.neckhump.com/neck-hump-guide" 
+              className="text-blue-600 font-medium hover:underline"
+              target="_blank"
+              rel="noopener"
+            >
+              View Clinical Treatment Guide at NeckHump.com →
+            </a>
+          </div>
+
           <KeyTakeaways takeaways={keyTakeaways} />
 
           <div className="prose prose-lg max-w-none">

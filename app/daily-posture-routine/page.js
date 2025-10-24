@@ -258,6 +258,23 @@ export default function DailyPostureRoutine() {
             This evidence-based routine targets the key muscles for posture: chin tucks (neck), wall angels (shoulders), cat-cow stretches (spine), bridges (hips), and planks (core). Do it daily for 4-6 weeks to see noticeable posture improvements.
           </ShortAnswer>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 my-8">
+            <h3 className="font-semibold text-blue-900 mb-2">
+              Need More Targeted Neck Hump Exercises?
+            </h3>
+            <p className="text-blue-800 mb-3">
+              If you have an established neck hump or severe forward head posture, you may need more specific clinical exercise protocols beyond this general routine. See our specialized neck hump exercise program.
+            </p>
+            <a 
+              href="https://www.neckhump.com/neck-hump-exercises" 
+              className="text-blue-600 font-medium hover:underline"
+              target="_blank"
+              rel="noopener"
+            >
+              View Clinical Exercise Program at NeckHump.com →
+            </a>
+          </div>
+
           <KeyTakeaways takeaways={keyTakeaways} />
 
           <div className="prose prose-lg max-w-none">

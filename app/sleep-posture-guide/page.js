@@ -218,6 +218,23 @@ export default function SleepPostureGuide() {
             The best sleeping positions for posture are on your back (with pillow under knees) or on your side (with pillow between knees). Both keep your spine aligned naturally. Avoid stomach sleeping as it strains your neck and twists your spine.
           </ShortAnswer>
 
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-6 my-8">
+            <h3 className="font-semibold text-blue-900 mb-2">
+              Neck Hump Making Sleep Uncomfortable?
+            </h3>
+            <p className="text-blue-800 mb-3">
+              If you have a visible neck hump or severe forward head posture that makes finding comfortable sleep positions difficult, you may need specialized sleeping guidance and pillow selection. See our clinical sleep guide.
+            </p>
+            <a 
+              href="https://www.neckhump.com/how-to-sleep-with-neck-hump" 
+              className="text-blue-600 font-medium hover:underline"
+              target="_blank"
+              rel="noopener"
+            >
+              View Neck Hump Sleep Guide at NeckHump.com →
+            </a>
+          </div>
+
           <KeyTakeaways takeaways={keyTakeaways} />
 
           <div className="prose prose-lg max-w-none">
