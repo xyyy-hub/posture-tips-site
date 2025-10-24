@@ -256,7 +256,7 @@ export default function SleepPostureGuide() {
             </ul>
 
             <p>
-              Good sleep posture, combined with proper pillow and mattress support, allows your muscles to fully relax and your spine to maintain its natural curves throughout the night.
+              Good sleep posture, combined with proper pillow and mattress support, allows your muscles to fully relax and your spine to maintain its natural curves throughout the night. For comprehensive posture improvement across all positions, see our <a href="/how-to-improve-posture" className="text-primary-600 hover:underline">complete guide</a>.
             </p>
 
             <h2 id="back-sleeping">Best Sleeping Position: On Your Back</h2>
@@ -305,7 +305,7 @@ export default function SleepPostureGuide() {
               <li>Maintains neutral spine alignment when pillow height is correct</li>
               <li>Reduces snoring and sleep apnea symptoms</li>
               <li>Comfortable for most people</li>
-              <li>Good during pregnancy (left side recommended)</li>
+              <li>Good during <a href="/pregnancy-posture-guide" className="text-primary-600 hover:underline">pregnancy</a> (left side recommended)</li>
             </ul>
 
             <h3>How to Sleep on Your Side Correctly</h3>
@@ -354,7 +354,7 @@ export default function SleepPostureGuide() {
               <li><strong>Use thin pillow or no pillow:</strong> Reduces neck extension</li>
               <li><strong>Place pillow under hips/stomach:</strong> Reduces lower back arch</li>
               <li><strong>Alternate which side head turns:</strong> Switch neck rotation direction periodically</li>
-              <li><strong>Stretch in morning:</strong> Do cat-cow stretches and neck rotations upon waking</li>
+              <li><strong>Stretch in morning:</strong> Do cat-cow stretches and neck rotations upon waking (see our <a href="/daily-posture-routine" className="text-primary-600 hover:underline">daily routine</a>)</li>
             </ol>
 
             <h3>How to Transition Away from Stomach Sleeping</h3>
@@ -383,7 +383,7 @@ export default function SleepPostureGuide() {
 
             <h3>How to Test Pillow Height</h3>
             <p>
-              Lie in your usual sleep position and have someone take a side-view photo. Your neck should form a straight line with your spine—not bent up toward ceiling or down toward bed.
+              Lie in your usual sleep position and have someone take a side-view photo. Your neck should form a straight line with your spine—not bent up toward ceiling or down toward bed. This same alignment principle applies to <a href="/standing-posture-guide" className="text-primary-600 hover:underline">standing posture</a>.
             </p>
 
             <p>

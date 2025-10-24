@@ -285,7 +285,7 @@ export default function DailyPostureRoutine() {
             </p>
 
             <p>
-              <strong>The science:</strong> Your body adapts to positions you hold most often. If you sit hunched for 8+ hours daily, those muscles shorten and strengthen while opposing muscles (upper back, glutes) weaken and lengthen. This routine reverses those patterns.
+              <strong>The science:</strong> Your body adapts to positions you hold most often. If you <a href="/sitting-posture-guide" className="text-primary-600 hover:underline">sit hunched</a> for 8+ hours daily, those muscles shorten and strengthen while opposing muscles (upper back, glutes) weaken and lengthen. This routine reverses those patterns.
             </p>
 
             <h3>What You'll Need</h3>
@@ -298,7 +298,7 @@ export default function DailyPostureRoutine() {
 
             <h3>When to Do This Routine</h3>
             <p>
-              <strong>Best: Morning</strong> — Your muscles are stiff from sleep and benefit from activation before your day. Sets positive posture tone for the next 12 hours.
+              <strong>Best: Morning</strong> — Your muscles are stiff from <a href="/sleep-posture-guide" className="text-primary-600 hover:underline">sleep</a> and benefit from activation before your day. Sets positive posture tone for the next 12 hours.
             </p>
 
             <p>
@@ -321,7 +321,7 @@ export default function DailyPostureRoutine() {
 
             <h3>Why This Exercise</h3>
             <p>
-              Forward head posture (head juts ahead of shoulders) adds 10 pounds of pressure to your neck for every inch forward. Chin tucks strengthen deep neck flexors that pull your head back into alignment over your shoulders.
+              Forward head posture (head juts ahead of shoulders) adds 10 pounds of pressure to your neck for every inch forward. This is especially common from <a href="/phone-posture-tips" className="text-primary-600 hover:underline">phone use</a>. Chin tucks strengthen deep neck flexors that pull your head back into alignment over your shoulders.
             </p>
 
             <h3>How to Do Chin Tucks</h3>
@@ -415,7 +415,7 @@ export default function DailyPostureRoutine() {
 
             <h3>Seated Modification (for Office)</h3>
             <p>
-              Sit at edge of chair, hands on knees. Arch back and look up (cow), then round back and look down (cat). Not as effective as floor version, but works in office setting.
+              Sit at edge of chair, hands on knees. Arch back and look up (cow), then round back and look down (cat). Not as effective as floor version, but works in <a href="/tips/office-workers" className="text-primary-600 hover:underline">office setting</a>.
             </p>
 
             <h2 id="exercise-4">Exercise 4: Glute Bridges (2 minutes)</h2>
