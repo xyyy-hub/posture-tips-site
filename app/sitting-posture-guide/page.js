@@ -283,7 +283,7 @@ export default function SittingPostureGuide() {
             </p>
 
             <p>
-              Your spine has natural curves that need support while sitting. Slouching, leaning forward, or sitting without lumbar support flattens or exaggerates these curves, putting excessive strain on muscles, ligaments, and discs. Over time, this causes chronic pain and permanent postural changes.
+              Your spine has natural curves that need support while sitting. Slouching, leaning forward, or sitting without lumbar support flattens or exaggerates these curves, putting excessive strain on muscles, ligaments, and discs. Over time, this causes chronic pain and permanent <a href="/how-to-improve-posture" className="text-primary-600 hover:underline">postural changes</a>.
             </p>
 
             <h2 id="90-90-90-rule">The 90-90-90 Rule (Foundation)</h2>
@@ -303,7 +303,7 @@ export default function SittingPostureGuide() {
 
             <h2 id="chair-setup">Step-by-Step Chair Setup</h2>
             <p>
-              Your chair is the foundation of good sitting posture. Most office chairs have 5-7 adjustable features. Here's how to set each correctly:
+              Your chair is the foundation of good sitting posture. Most office chairs have 5-7 adjustable features. Here's how to set each correctly (for complete workspace setup, see our <a href="/desk-ergonomics-guide" className="text-primary-600 hover:underline">Desk Ergonomics Guide</a>):
             </p>
 
             <h3>1. Seat Height Adjustment</h3>
@@ -369,7 +369,7 @@ export default function SittingPostureGuide() {
               <li><strong>Perching on edge of chair:</strong> Eliminates lumbar support, causes lower back strain. Sit all the way back.</li>
               <li><strong>Crossing legs habitually:</strong> Creates hip and pelvic imbalances. Keep both feet flat on floor.</li>
               <li><strong>Leaning forward toward screen:</strong> Usually means monitor is too far, too low, or font is too small. Fix setup, don't lean.</li>
-              <li><strong>Phone cradled between ear and shoulder:</strong> Severe neck strain. Use speakerphone or headset for calls.</li>
+              <li><strong>Phone cradled between ear and shoulder:</strong> Severe neck strain. Use speakerphone or headset for calls (see <a href="/phone-posture-tips" className="text-primary-600 hover:underline">phone posture tips</a>).</li>
               <li><strong>Armrests too high:</strong> Forces shoulders to elevate, causing neck tension. Lower or remove them.</li>
               <li><strong>No lumbar support:</strong> Leads to slouching and lower back pain. Adjust support or use small cushion.</li>
               <li><strong>Monitor too low:</strong> Most common mistake. Causes you to look down all day, straining neck. Raise it.</li>
@@ -397,12 +397,12 @@ export default function SittingPostureGuide() {
             </ol>
 
             <p>
-              Set a timer or use an app to remind you to take breaks. After 2-3 weeks, movement breaks will become automatic.
+              Set a timer or use an app to remind you to take breaks. After 2-3 weeks, movement breaks will become automatic. For a complete strengthening routine, see our <a href="/daily-posture-routine" className="text-primary-600 hover:underline">10-minute daily posture exercises</a>.
             </p>
 
             <h2>Building the Habit</h2>
             <p>
-              Perfect sitting posture isn't something you achieve once and forget. It requires ongoing awareness and minor adjustments throughout your day.
+              Perfect sitting posture isn't something you achieve once and forget. It requires ongoing awareness and minor adjustments throughout your day. Learn more about <a href="/how-to-improve-posture" className="text-primary-600 hover:underline">building posture habits</a> that last.
             </p>
 
             <ul>

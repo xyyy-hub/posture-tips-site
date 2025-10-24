@@ -281,7 +281,7 @@ export default function HowToImprovePosture() {
             </p>
 
             <p>
-              The most common posture problems are forward head position (chin juts ahead of shoulders), rounded shoulders (upper back hunches forward), and anterior pelvic tilt (lower back arches excessively). These patterns develop from prolonged sitting, phone use, and lack of core strength.
+              The most common posture problems are forward head position (chin juts ahead of shoulders), rounded shoulders (upper back hunches forward), and anterior pelvic tilt (lower back arches excessively). These patterns develop from prolonged sitting, <a href="/phone-posture-tips" className="text-primary-600 hover:underline">excessive phone use</a>, and lack of core strength.
             </p>
 
             <h3>How to Check Your Posture</h3>
@@ -301,7 +301,7 @@ export default function HowToImprovePosture() {
 
             <h2 id="sitting-posture">Step 1: Fix Your Sitting Posture (Most Important)</h2>
             <p>
-              The average person sits 8-12 hours daily. Poor sitting posture during these hours causes more postural problems than any other factor. Getting your sitting position and desk setup right is the single most impactful change you can make.
+              The average person sits 8-12 hours daily. Poor sitting posture during these hours causes more postural problems than any other factor. Getting your <a href="/desk-ergonomics-guide" className="text-primary-600 hover:underline">sitting position and desk setup</a> right is the single most impactful change you can make.
             </p>
 
             <h3>Perfect Sitting Position</h3>
@@ -443,8 +443,8 @@ export default function HowToImprovePosture() {
               Make good posture the easy choice:
             </p>
             <ul>
-              <li>Adjust chair and monitor height properly (one-time 20-minute setup)</li>
-              <li>Keep phone at eye level instead of looking down</li>
+              <li><a href="/desk-ergonomics-guide" className="text-primary-600 hover:underline">Adjust chair and monitor height</a> properly (one-time 20-minute setup)</li>
+              <li>Keep phone at eye level instead of <a href="/phone-posture-tips" className="text-primary-600 hover:underline">looking down</a></li>
               <li>Use laptop stand + external keyboard if working from laptop</li>
               <li>Place frequently-used items within easy reach (no straining)</li>
             </ul>

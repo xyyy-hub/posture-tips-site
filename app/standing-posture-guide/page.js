@@ -316,7 +316,7 @@ export default function StandingPostureGuide() {
             </ul>
 
             <p>
-              Perform the wall test weekly to track your posture improvements. As muscles strengthen and habits improve, you'll find this position easier to achieve and hold.
+              Perform the wall test weekly to track your posture improvements. As muscles strengthen and habits improve, you'll find this position easier to achieve and hold. For comprehensive improvement strategies, see our <a href="/how-to-improve-posture" className="text-primary-600 hover:underline">complete posture guide</a>.
             </p>
 
             <h2 id="perfect-position">Perfect Standing Position (Step-by-Step)</h2>
@@ -375,8 +375,8 @@ export default function StandingPostureGuide() {
             <h3>1. Forward Head Posture</h3>
             <p>
               <strong>What it looks like:</strong> Head juts forward, ears ahead of shoulders<br/>
-              <strong>Causes:</strong> Phone use, computer work, weak neck muscles<br/>
-              <strong>Fix:</strong> Chin tucks, neck stretches, monitor height adjustment
+              <strong>Causes:</strong> <a href="/phone-posture-tips" className="text-primary-600 hover:underline">Phone use</a>, computer work, weak neck muscles<br/>
+              <strong>Fix:</strong> Chin tucks, neck stretches, <a href="/desk-ergonomics-guide" className="text-primary-600 hover:underline">monitor height adjustment</a>
             </p>
 
             <h3>2. Rounded Shoulders</h3>
@@ -389,7 +389,7 @@ export default function StandingPostureGuide() {
             <h3>3. Anterior Pelvic Tilt</h3>
             <p>
               <strong>What it looks like:</strong> Excessive lower back arch, belly protrudes<br/>
-              <strong>Causes:</strong> Weak core, tight hip flexors, prolonged sitting<br/>
+              <strong>Causes:</strong> Weak core, tight hip flexors, <a href="/sitting-posture-guide" className="text-primary-600 hover:underline">prolonged sitting</a><br/>
               <strong>Fix:</strong> Glute bridges, planks, hip flexor stretches
             </p>
 
@@ -457,7 +457,7 @@ export default function StandingPostureGuide() {
 
             <h2 id="exercises">Exercises to Improve Standing Posture</h2>
             <p>
-              These exercises strengthen the muscles that support good standing posture. Do them 3-4 times weekly:
+              These exercises strengthen the muscles that support good standing posture. Do them 3-4 times weekly. For a complete daily routine, see our <a href="/daily-posture-routine" className="text-primary-600 hover:underline">10-minute posture exercise program</a>:
             </p>
 
             <h3>1. Single-Leg Balance (1 minute each side)</h3>
